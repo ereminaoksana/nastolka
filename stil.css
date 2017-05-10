@@ -1,0 +1,308 @@
+body{
+    background-image: url("img/master03_background.gif");
+    background-size: 100% auto;
+}
+#main{
+    position: relative;
+    width: 98%;
+    height: 94vh;
+    margin-left: 1% ;
+    margin-top: 3vh;
+    background: #ffffff;
+    box-shadow: 0 0 10px grey;
+}
+#categor{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    border:solid 1px grey;
+    text-align: center;
+}
+#spisok_kategori{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin-top: 5%;
+    font-size: 130%;
+}
+#menu{
+    position: absolute;
+    left: 20%;
+    border: solid 1px black;
+    width: 80%;
+    height: 11.7%;
+}
+#filtrs{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    height: 30%;
+    width: 50%;
+}
+#reg{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    width: 15%;
+    height: 40%;
+}
+#vhod{
+    position: absolute;
+    right: 25%;
+    top: 25%;
+    width: 15%;
+    height: 40%;
+
+}
+#content{
+    position: absolute;
+    left: 20%;
+    top: 11.7%;
+    width: 80%;
+    height: 88.3%;
+    background: whitesmoke;
+    border: solid 1px grey;
+    overflow: auto;
+}
+.product{
+    position: relative;
+    width: 15%;
+    height: 35%;
+    /*border: solid 1px black;*/
+    margin-top: 5%;
+    margin-left: 7%;
+    display: inline-block;
+    overflow: hidden;
+}
+.avatar{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: auto;
+}
+.img{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    /*border: solid 1px black;*/
+    overflow: hidden;
+}
+.price{
+    position: absolute;
+    bottom: 1%;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+}
+.name{
+    position: absolute;
+    bottom: 13%;
+    width: 90%;
+    left:5%;
+    text-align: center;
+}
+.vozrast {
+    position: absolute;
+    bottom: 1%;
+    width: 50%;
+    left:5%;
+}
+#registr {
+    position: absolute;
+    width: 60%;
+    height: 90%;
+    top: 5%;
+    left: 2%;
+
+}
+.user {
+    position: absolute;
+    right: 5%;
+    top: 27%;
+
+    font-size: 23px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+
+}
+a.button1 {
+    position: relative;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: -1px -1px #000;
+    user-select: none;
+    padding: .8em 2em;
+    margin-top: 2vh;
+    margin-left: 5%;
+    outline: none;
+    background-color: #EC0033;
+    background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto;
+    background-position: 200% 0, 0 0;
+    box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+}
+a.button1:active {
+    top: 1px;
+    box-shadow: none;
+}
+a.button1:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0;
+}
+.log {
+    position: absolute;
+    left: 3%;
+    top: 5%;
+}
+.onevstr{
+    position: relative;
+    height: 15vh;
+    border: solid 1px coral;
+}
+.onevstr:hover{
+    border: solid 1px #EC0033;
+}
+.nameigra{
+    position: absolute;
+    left: 1%;
+    top:5%;
+    font-size: 26px;
+}
+.datavrema{
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    font-size: 14px;
+    color: darkgray;
+    
+}
+.mesto{
+    position: absolute;
+    left: 1%;
+    top: 65%;
+    font-size: 18px;
+    color: darkgray;
+}
+.coment{
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    top: 5%;
+    left: 33%;
+
+}
+.ychastie {
+    position: absolute;
+    right: 1%;
+    top:5%;
+}
+
+a.button9 {
+    position: absolute;
+    right: 1%;
+    top:25%;
+    display: inline-block;
+    color: #777674;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 3px / 100%;
+    background-image:
+            linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+            linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+            linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+            linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+            linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+            linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+a.button9:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+a.button9:active {
+    top: 1px;
+}
+.sozdatvstrechy{
+    position: relative;
+    height: 15vh;
+    border-bottom: #EC0033;
+
+}
+#viebon{
+    position: absolute;
+    height: 70%;
+    width: 40%;
+    border: 1px solid black;
+    z-index: 100;
+    top: 22%;
+    left: 35%;
+    background: snow;
+    display: none;
+}
+.createivent{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top:3%;
+
+}
+.vvood{
+    width: 100%;
+    height: 5vh;
+    font-size: 18px;
+    padding-left: 2%;
+
+}
+#comentarii{
+    width: 100%;
+    height: 10vh;
+
+}
+#hover1{
+    position: absolute;
+    width: 100%;
+    height: 95vh;
+    background: black;
+    z-index: 99;
+    opacity: 0.5;
+    margin: 0;
+    cursor: pointer;
+    display: none;
+}
+.ych{
+    position: absolute;
+    width: 10%;
+    font-size: 25px;
+    right: 15%;
+    top: 30%;
+}
+#imya{
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    font-size: 25px;
+
+}
+#mygame{
+    position: relative;
+    margin-left: 3%;
+    width: 94%;
+    height: 50vh;
+    border: solid 1px black;
+}
