@@ -56,7 +56,7 @@ if (isset($nazvanie)&& isset($datavstrechi)&& isset($nazvanie)&& isset($vremya)&
         <a href="accsesyar.php" class="button1">Аксессуары</a>
         <?
         if(isset($_SESSION['name'])){
-            echo "<span class=\"user\">".$_SESSION['name']."</span>";
+            echo "<a href=\"profil.php\"> <span class=\"user\">".$_SESSION['name']."</span></a>";
             echo " <a href=\"vihod.php\" class=\"button1\">Выход</a>";
         }
         else {

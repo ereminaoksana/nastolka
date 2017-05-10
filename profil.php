@@ -21,7 +21,7 @@ include "bdconect.php"?>
         <a href="accsesyar.php" class="button1">Аксессуары</a>
         <?
         if(isset($_SESSION['name'])){
-            echo "<span class=\"user\">".$_SESSION['name']."</span>";
+            echo "<a href=\"profil.php\"> <span class=\"user\">".$_SESSION['name']."</span></a>";
             echo " <a href=\"vihod.php\" class=\"button1\">Выход</a>";
         }
         else {
@@ -52,8 +52,12 @@ include "bdconect.php"?>
     </div>
     <div id="content">
     <div id="imya"> пккрро</div>
-        <div id="mygame">Мои игры</div>
-
+        <div id="mygame">Мои игры
+        <span class="redactor">Редактировать</span>
+        </div>
+        <div id="osebe">О себе
+            <span class="redactor">Редактировать</span>
+        </div>
 
 
     </div>

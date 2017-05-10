@@ -306,3 +306,18 @@ a.button9:active {
     height: 50vh;
     border: solid 1px black;
 }
+#osebe{
+    position: relative;
+    margin-left: 3%;
+    width: 94%;
+    margin-top: 1vh;
+    height: 20vh;
+    border: solid 1px black;
+
+}
+.redactor{
+    float: right;
+    text-decoration: underline;
+    cursor: pointer;
+    color: darkblue;
+}
