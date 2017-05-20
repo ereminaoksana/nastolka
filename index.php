@@ -7,10 +7,12 @@ include "bdconect.php"?>
     <meta charset="UTF-8">
     <title>Настольные игры</title>
     <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="font/css/fontello.css">
     <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 <div id="main">
+
     <div id="menu">
         <a href="obmen.php" class="button1">Обмен играми</a>
         <a href="vstrecha.php" class="button1">Встречи</a>
@@ -53,8 +55,15 @@ include "bdconect.php"?>
             echo "<img class=\"avatar\" src=\"img/".$key['avatar']."\" alt=\"\">";
             echo " </div>";
             echo "<span class=\"name\">".$key['name']."</span>";
-            echo "<span class=\"price\">".$key['price']."</span>";
+            echo "<span class=\"price\">"."<b>".$key['price']."</b>"."<i class='icon-rouble'></i>"."</span>";
             echo "<span class=\"vozrast\">".$key['vosrast']."</span>";
+            echo "<span class=\"vozrast\">".$key['ychastniki']."<i class='icon-user-5'></i>"."</span>";
+
+            echo "<span class='reiting'>";
+            for ($i=1; $i<=$key['reiting'];$i++){
+                echo "<i class='icon-star zvezda'></i>";
+            }
+            echo "</span>";
             echo "</div>";
         }?>
         

@@ -71,45 +71,60 @@ li{
 .product{
     position: relative;
     width: 15%;
-    height: 35%;
+    height: auto;
     /*border: solid 1px black;*/
     margin-top: 5%;
     margin-left: 7%;
+    margin-bottom: 2%;
     display: inline-block;
     overflow: hidden;
 }
 .avatar{
-    position: absolute;
-    width: 80%;
-    left: 10%;
+    position: relative;
+    width: 100%;
+    /*left: 10%;*/
     height: auto;
 }
 .img{
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 80%;
+    height: auto;
+    display: block;
     /*border: solid 1px black;*/
     overflow: hidden;
 }
 .price{
-    position: absolute;
-    bottom: 1%;
-    width: 50%;
-    left: 25%;
+    position: relative;
+    /*bottom: 1%;*/
+    width: 100%;
+    /*left: 25%;*/
+    display: block;
     text-align: center;
+    margin-bottom: 2%;
 }
 .name{
-    position: absolute;
-    bottom: 13%;
-    width: 90%;
-    left:5%;
+    position: relative;
+    /*bottom: 13%;*/
+    width: 100%;
+    /*left:5%;*/
+    display: block;
+    margin-bottom: 2%;
     text-align: center;
 }
+
+.zvezda{
+    color: gold;
+    text-shadow: 0 2px 2px black;
+}
+
 .vozrast {
-    position: absolute;
-    bottom: 1%;
-    width: 50%;
-    left:5%;
+    position: relative;
+    /*bottom: 1%;*/
+    width: 100%;
+    /*left:5%;*/
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
 }
 #registr {
     position: absolute;
@@ -117,6 +132,7 @@ li{
     height: 90%;
     top: 5%;
     left: 2%;
+    margin-bottom: 1%;
 
 }
 .user {
@@ -320,4 +336,9 @@ a.button9:active {
     text-decoration: underline;
     cursor: pointer;
     color: darkblue;
+}
+.reiting{
+    display: block;
+    width: 100%;
+    text-align: center;
 }
